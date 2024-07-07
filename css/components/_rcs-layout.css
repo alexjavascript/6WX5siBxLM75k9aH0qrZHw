@@ -1,0 +1,27 @@
+.rcs-layout {
+  display: grid;
+  padding: 90px 20px 58px;
+}
+
+.rcs-layout_profile {
+  grid-template-columns: 1fr;
+  gap: 20px;
+  min-height: 780px;
+
+}
+
+@media screen and (min-width: 768px) {
+  .rcs-layout {
+    padding: 40px;
+  }
+
+  .rcs-layout_profile {
+    grid-template-columns: 320px 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 32px;
+  }
+
+  .rcs-layout_profile .rcs-ui-profile {
+    grid-row: 1/-1;
+  }
+}

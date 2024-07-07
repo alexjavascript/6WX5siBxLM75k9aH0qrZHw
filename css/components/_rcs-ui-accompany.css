@@ -1,0 +1,20 @@
+.rcs-ui-accompany {
+  max-width: 690px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+
+.rcs-ui-accompany p:not(:first-child) {
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .rcs-ui-accompany {
+    padding: 0;
+    padding-top: 18px;
+  }
+
+  .rcs-ui-accompany p:not(:first-child) {
+    margin-top: 16px;
+  }
+}

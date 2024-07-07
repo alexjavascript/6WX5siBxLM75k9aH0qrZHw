@@ -1,0 +1,37 @@
+.rcs-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rcs-list_inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.rcs-list_contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rcs-list_contacts li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.rcs-list_contacts svg {
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .rcs-list_inline {
+    gap: 32px;
+  }
+
+  .rcs-list_contacts {
+    gap: 20px;
+  }
+}

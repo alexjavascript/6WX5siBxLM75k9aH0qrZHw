@@ -1,0 +1,36 @@
+.rcs-text {
+  margin: 0;
+}
+
+.rcs-text_color_primary {
+  color: var(--color-text-primary);
+}
+
+.rcs-text_color_secondary {
+  color: var(--color-text-secondary);
+}
+
+.rcs-text_type_h1 {
+  font: var(--font-h1);
+}
+
+.rcs-text_type_h2 {
+  font: var(--font-h2);
+}
+
+.rcs-text_type_p1 {
+  font: var(--font-p1);
+}
+
+.rcs-text_type_p2 {
+  font: var(--font-p2);
+}
+
+.rcs-text_type_link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.rcs-text_type_link:hover {
+  text-decoration: underline;
+}

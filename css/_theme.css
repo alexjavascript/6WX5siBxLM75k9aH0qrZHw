@@ -1,0 +1,26 @@
+:root {
+  --rcs-palette-black: #000000;
+  --rcs-palette-gray: #666666;
+  --rcs-palette-red: #f51b1b;
+  --rcs-palette-white: #ffffff;
+
+  --color-text-primary: var(--rcs-palette-white);
+  --color-text-secondary: var(--rcs-palette-gray);
+  --color-bg-primary: var(--rcs-palette-black);
+  --color-bg-accent: var(--rcs-palette-red);
+  
+  --font-h1: normal 700 16px/24px 'Redcollar', Helvetica, Arial, sans-serif;
+  --font-h2: normal 700 16px/20px 'Redcollar', Helvetica, Arial, sans-serif;
+  --font-p1: normal 400 16px/20px 'TT Commons', Helvetica, Arial, sans-serif;
+  --font-p2: normal 400 16px/20px 'TT Commons', Helvetica, Arial, sans-serif;
+
+  --unit-spacing: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --font-h1: normal 700 24px/28px 'Redcollar', Helvetica, Arial, sans-serif;
+    --font-p1: normal 400 20px/24px 'TT Commons', Helvetica, Arial, sans-serif;
+    --font-p2: normal 400 18px/24px 'TT Commons', Helvetica, Arial, sans-serif;
+  }
+}
