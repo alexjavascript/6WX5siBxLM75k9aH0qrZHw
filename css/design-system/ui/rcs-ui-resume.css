@@ -12,8 +12,8 @@
   display: block;
   width: 50px;
   height: 20px;
-  transform: translateX(-50%);
   background-color: var(--color-bg-primary); 
+  transform: translateX(-50%);
 }
 
 .rcs-ui-resume__shape {
@@ -61,6 +61,5 @@
     top: -1.5px;
     left: 60px;
     stroke: currentColor;
-    /* fill: black; */
   }
 }
