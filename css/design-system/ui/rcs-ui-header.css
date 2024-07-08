@@ -20,8 +20,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-} 
-
+}
 
 .rcs-ui-header__button {
   position: relative;
@@ -42,7 +41,7 @@
   width: 17px;
   left: 3px;
   bottom: 3px;
-  background-color: var(--rcs-palette-white);;
+  background-color: var(--rcs-palette-white);
   border-radius: 50%;
   transition: transform 0.4s;
 }

@@ -8,8 +8,15 @@ const Themes = {
 const root = document.documentElement;
 const toggler = document.querySelector('#theme-toggle-button');
 
-const setDarkTheme = () => root.setAttribute(THEME_ATTRIBUTE, Themes.DARK);
-const setLightTheme = () => root.setAttribute(THEME_ATTRIBUTE, Themes.LIGHT);
+const setDarkTheme = () => {
+  root.setAttribute(THEME_ATTRIBUTE, Themes.DARK);
+  toggler.classList.add('rcs-ui-header__button_active');
+}
+
+const setLightTheme = () => {
+  root.setAttribute(THEME_ATTRIBUTE, Themes.LIGHT);
+  toggler.classList.remove('rcs-ui-header__button_active');
+}
 
 const themeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
@@ -35,16 +42,12 @@ themeMediaQuery.addEventListener('change', setSystemTheme);
 const toggleTheme = () => {
   const theme = root.getAttribute(THEME_ATTRIBUTE);
 
-  console.log(1);
+  if (theme === Themes.DARK) {
+    setLightTheme();
+    return;
+  }  
 
-  root.setAttribute(
-    THEME_ATTRIBUTE, 
-    theme === Themes.LIGHT 
-      ? Themes.DARK 
-      : Themes.LIGHT,
-  );
-
-  toggler.classList.toggle('rcs-ui-header__button_active');
+  setDarkTheme();
 };
 
 const handleButtonClick = (event) => {
