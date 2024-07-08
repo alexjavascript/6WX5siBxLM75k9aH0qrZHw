@@ -1,1 +1,1 @@
-<img width="1920" alt="frame-2" src="https://github.com/alexjavascript/Redcollar-Profile/assets/20648009/f05bacc6-e317-431d-87ca-44c2c481967f">
+<img width="1920" alt="project description" src="https://github.com/alexjavascript/Redcollar-Profile/assets/20648009/52e56eac-353e-4007-8404-ddb8f82c5d75">
