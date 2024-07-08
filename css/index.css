@@ -1,7 +1,6 @@
 @import url(./fonts.css);
 
-@import url(./normalize.css);
+@import url(./vendors/normalize.css);
 @import url(./utils/index.css);
 
-@import url(./design-tokens.css);
 @import url(./design-system/index.css);

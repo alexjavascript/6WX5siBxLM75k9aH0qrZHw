@@ -1,3 +1,7 @@
+.rcs-ui-profile {
+  color: var(--rcs-palette-white);
+}
+
 .rcs-ui-profile p {
   margin-top: 4px;
 }
@@ -16,7 +20,7 @@
 }
 
 .rcs-ui-profile div::before {
-  content: url("./../../img/rcs-ui-profile-asset.svg");
+  content: url("./../../../img/rcs-ui-profile-asset.svg");
   position: absolute;
   left: 50%;
   top: -18px;

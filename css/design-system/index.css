@@ -1,10 +1,14 @@
-@import url(./rcs-ui-header.css);
-@import url(./rcs-ui-profile.css);
-@import url(./rcs-icon.css);
-@import url(./rcs-text.css);
-@import url(./rcs-list.css);
-@import url(./rcs-ui-accompany.css);
-@import url(./rcs-ui-resume.css);
-@import url(./rcs-layout.css);
-@import url(./rcs-body.css);
-@import url(./rcs-img.css);
+@import url(./fonts.css);
+
+@import url(./theme.css);
+
+@import url(./ui/rcs-ui-header.css);
+@import url(./ui/rcs-ui-profile.css);
+@import url(./ui/rcs-icon.css);
+@import url(./ui/rcs-text.css);
+@import url(./ui/rcs-list.css);
+@import url(./ui/rcs-ui-accompany.css);
+@import url(./ui/rcs-ui-resume.css);
+@import url(./ui/rcs-layout.css);
+@import url(./ui/rcs-body.css);
+@import url(./ui/rcs-img.css);
